@@ -1,0 +1,22 @@
+{
+  "name": "wallet-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabogalt/wallet-system.git"
+  },
+  "author": "Gabriel Lomeña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabogalt/wallet-system/issues"
+  },
+  "homepage": "https://github.com/gabogalt/wallet-system#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
