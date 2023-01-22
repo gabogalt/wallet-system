@@ -24,10 +24,15 @@ const singUp = (req, res)=>{
     
 }
 
+const Login = (req,res)=>{
+    res.render('Login')
+}
+
 module.exports = {
     Home,
     Tables,
     Notifications,
     Profile,
-    singUp, 
+    singUp,
+    Login 
 }
