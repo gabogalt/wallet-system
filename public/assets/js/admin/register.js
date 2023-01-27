@@ -60,10 +60,6 @@ window.onload = async function(){
 	   return verify
 	}
 
-	getGoogleIdClient()
-
-	
-	
 }
 
 // register with google

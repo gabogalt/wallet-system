@@ -7,10 +7,6 @@ const Tables = (req, res) =>{
     res.render('tables')
 }
 
-const Notifications = (req, res) =>{
-    res.render('notifications')
-}
-
 const Profile = (req, res)=>{
     res.render('profile')
 }
@@ -31,7 +27,6 @@ const Login = (req,res)=>{
 module.exports = {
     Home,
     Tables,
-    Notifications,
     Profile,
     singUp,
     Login 

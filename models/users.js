@@ -16,6 +16,13 @@ const Users = sequelize.define("users", {
     password: {
         type: DataTypes.STRING,
         allowNull: true
+    },
+    is_google:{
+      type: DataTypes.NUMBER
+    },
+    salt:{
+        type: DataTypes.STRING,
+        allowNull: true
     }
  });
 
